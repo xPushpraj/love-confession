@@ -1,0 +1,60 @@
+/* General Center Alignment for Questions */
+.center {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Button Container Styling */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #f7f7f7;
+    text-align: center;
+    border-top: 2px solid #ff6f61;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .creator {
+    font-size: 1.2rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer .social-icons a {
+    color: #ff6f61;
+    font-size: 1.8rem;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #ff4a42;
+    transform: scale(1.2);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
