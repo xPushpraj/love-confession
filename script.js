@@ -35,7 +35,7 @@ const steps = [
   {
     question: "This is really the last window. I won't ask again, promise! 😢",
     emoji: "😞",
-    onYes: () => endProgram("In the end you aceepted my proposal,and you are mine, my love.!! 🎉"),
+    onYes: () => endProgram("Finally you aceepted my proposal,and you are mine, my love.!! 🎉"),
     onNo: () => makeButtonMove(true),
   },
 ];
